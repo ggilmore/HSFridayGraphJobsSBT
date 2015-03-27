@@ -1,0 +1,140 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 10 sources: invalidated sources (10) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 10 Scala sources to /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.6  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_962f9081[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/gmgilmore/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/gmgilmore/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/xsbti/interface-0.13.8.jar:/Users/gmgilmore/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-interface-src/compiler-interface-src-0.13.8.jar:/Users/gmgilmore/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.6.jar:/Users/gmgilmore/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/gmgilmore/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.3.jar:/Users/gmgilmore/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.3.jar:/Users/gmgilmore/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/6y/9hc13bv96qlgjw_dwzyb6_1r0000gn/T/sbt_5f2fbf1e/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 34f89b93, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/gmgilmore/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0mScala compilation took 13.871829906 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, pointer, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, MyStack, isInstanceOf, contents, <init>, ==, clone, put, toString, !=, get, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, children, wait, copy$default$2, $asInstanceOf, root, productArity, equals, asInstanceOf, executionStart, getAllWords, getScore, synchronized, getWordsAndScores, $isInstanceOf, canEqual, main, productPrefix, powSet, notifyAll, isInstanceOf, ScrabbleNode, <init>, ==, ScrabbleSolver, clone, scores, copy, put, toString, args, !=, getClass, copy$default$1, isWord, contains, lines, ne, eq, productIterator, delayedInit, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, nodes, ==, clone, toString, !=, getClass, MyGraph, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala: Set(<init>, nodes, toString, MyGraph)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Wordplay.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, letterCount, asInstanceOf, spellWord, synchronized, WordLetters, $isInstanceOf, canSpellWord, baseDictionary, notifyAll, isInstanceOf, ==, clone, $init$, baseMap, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/ScrabbleSolver.scala: Set(letterCount, asInstanceOf, WordLetters, canSpellWord, isInstanceOf, ==, toString, ne, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, node1, equals, node2894, asInstanceOf, executionStart, synchronized, bfs, $isInstanceOf, nameToNodeInstanceMap, main, notifyAll, isInstanceOf, ==, clone, readlargetextfile, toString, args, !=, getClass, nodeNeighborMapping, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Node.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, isDummy, name, wait, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, Node, canEqual, productPrefix, notifyAll, myNeighbors, isInstanceOf, <init>, addNeighbors, ==, clone, copy$default$3, copy, toString, !=, getClass, copy$default$1, ne, value, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala: Set(Node, <init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala: Set(Node, <init>)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyGraph.scala: Set(asInstanceOf, Node, isInstanceOf, <init>, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala: Set(Node, myNeighbors, <init>, addNeighbors, toString)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/readlargetextfile.scala: Set(name, Node, myNeighbors, <init>, addNeighbors, !=)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala: Set(asInstanceOf, Node, isInstanceOf, <init>, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala: Set(Node, myNeighbors, <init>, addNeighbors, !=)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, node11, wait, $asInstanceOf, node1, equals, node6, node7, asInstanceOf, executionStart, synchronized, node3, $isInstanceOf, node14, main, node10, notifyAll, walkGraph, isInstanceOf, node8, node13, ==, node4, clone, toString, args, graph, node9, !=, getClass, node12, ne, node2, eq, delayedInit, ##, finalize, node5, hashCode, test2.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, node11, test, wait, $asInstanceOf, node1, equals, node6, node7, asInstanceOf, executionStart, synchronized, node3, bfs, $isInstanceOf, node14, main, node10, notifyAll, isInstanceOf, node8, node13, ==, node4, clone, toString, args, node9, !=, getClass, node12, ne, node2, eq, delayedInit, ##, finalize, node5, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, pointer, productArity, equals, AEmpty, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, contents, v, <init>, MyQueue, ==, clone, AQueue, next, copy, put, toString, !=, get, getClass, copy$default$1, ANode, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala: Set(<init>, MyQueue, put, toString, get)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala by /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala by /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala, /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/Storage.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	Storage, notify, wait, $asInstanceOf, pointer, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, contents, ==, clone, $init$, put, toString, !=, get, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala: Set(Storage, put, toString, get)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/test2.scala: Set(Storage, put, toString, get)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyStack.scala: Set(Storage, contents)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/scala/hsfridaygraphjobs/MyQueue.scala: Set(Storage, asInstanceOf, isInstanceOf, contents, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
