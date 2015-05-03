@@ -20,9 +20,9 @@ object CycleFinder extends App{
                 println(s"Folding on $node's child: $child")
                 val (res, set) = loop(child, evaluating + node, visited + node)
                 println(s"Ending Fold on $node's child: $child")
-                if (!visited(child) && res) (bool || true, newVisitedSet union set)
-                else if (evaluating(child)) (bool || true, newVisitedSet)
-                else (bool || false, newVisitedSet union set)
+                if (!visited(child) && res) return (true, newVisitedSet union set)
+                else if (evaluating(child)) return (true, newVisitedSet)
+                else (false, newVisitedSet union set)
           }
       //we will come here either when the node we are evaluating is already visited, or it's a leaf (no children)
       (false, if (!visited(node)) visited + node else visited)
