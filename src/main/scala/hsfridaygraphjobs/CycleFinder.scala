@@ -13,28 +13,23 @@ object CycleFinder extends App{
       adjacencyList = adjacencyList + (v -> adjacencyList.getOrElse(v, Set()).+(w))
     }
 
-    def loop(workingNode: Option[Int], evaluating: Set[Int], visited: Set[Int]): (Boolean, Set[Int]) = {
-      println(s"loop($workingNode:Option[Int], $evaluating:Set[Int], $visited:Set[Int])")
-      workingNode match {
-        case Some(node) => {
-          if (!visited(node)) {
-            this.adjacencyList.getOrElse(node, Set()).foldLeft(false, Set[Int]()) { case ((bool, newVisitedSet), child) =>
-              println(s"Folding on $node's child: $child")
-              val (res, set) = loop(Some(child), evaluating + node, visited + node + child)
-              println(s"Ending Fold on $node's child: $child")
-              if (!visited(child) && res) (bool || true, newVisitedSet union set)
-              else if (evaluating(child)) (bool || true, newVisitedSet)
-              else (bool || false, newVisitedSet union set)
-            }
+    def loop(node: Int, evaluating: Set[Int], visited: Set[Int]): (Boolean, Set[Int]) = {
+      println(s"loop($node:Option[Int], $evaluating:Set[Int], $visited:Set[Int])")
+          if (!visited(node))
+                this.adjacencyList.getOrElse(node, Set()).foldLeft(false, Set[Int]()) { case ((bool, newVisitedSet), child) =>
+                println(s"Folding on $node's child: $child")
+                val (res, set) = loop(child, evaluating + node, visited + node)
+                println(s"Ending Fold on $node's child: $child")
+                if (!visited(child) && res) (bool || true, newVisitedSet union set)
+                else if (evaluating(child)) (bool || true, newVisitedSet)
+                else (bool || false, newVisitedSet union set)
           }
-          else loop(None, evaluating - node, visited)
-        }
-        case None => (false, visited)
-      }
+      //we will come here either when the node we are evaluating is already visited, or it's a leaf (no children)
+      (false, if (!visited(node)) visited + node else visited)
     }
 
     def hasCycle = (this.adjacencyList.keySet union this.adjacencyList.values.toSeq.flatten.toSet).foldLeft(false, Set[Int]()) { case ((boolean, set), node) => {
-      val (res, newSet) = loop(Some(node), Set(), set)
+      val (res, newSet) = loop(node, Set(), set)
       (boolean || res, newSet union set)
     }
     }
