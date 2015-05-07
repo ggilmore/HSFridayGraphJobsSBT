@@ -34,7 +34,7 @@ case class ScrabbleNode(isWord: Boolean = false, children: Map[Char, ScrabbleNod
   }
 }
 
-object ScrabbleSolver extends App {
+object ScrabbleSolver {
 
   val scores: Map[Char, Int] = Map('a' -> 1, 'c' -> 3, 'b' -> 3, 'e' -> 1, 'd' -> 2, 'g' -> 2,
     'f' -> 4, 'i' -> 1, 'h' -> 4, 'k' -> 5, 'j' -> 8, 'm' -> 3,
@@ -42,7 +42,7 @@ object ScrabbleSolver extends App {
     'r' -> 1, 'u' -> 1, 't' -> 1, 'w' -> 4, 'v' -> 4, 'y' -> 4,
     'x' -> 8, 'z' -> 10)
 
-  val lines = Source.fromFile(new File("/Users/gmgilmore/Dropbox/ScalaDev/HSFridayGraphJobsSBT/src/main/resources/sowpods.txt")).getLines
+  val lines = Source.fromFile(new File("/Users/erisa/hackerschool/HSFridayGraphJobsSBT/src/main/resources/sowpods.txt")).getLines
   var root:ScrabbleNode = ScrabbleNode()
   for (line <- lines) if (line.nonEmpty) {
     root = root.put(line.trim.toLowerCase)
@@ -64,7 +64,6 @@ object ScrabbleSolver extends App {
 
   def getWordsAndScores(tiles:String):Map[String, Int] = {
     val words = getAllWords(tiles, root)
-    println(words)
     words.foldLeft(Map[String, Int]()) { case (m, word) => m + (word -> getScore(word)) }
   }
 
@@ -75,7 +74,5 @@ object ScrabbleSolver extends App {
     else powSet(word.drop(1)) union powSet(word.drop(1)).map(x => s"${word.charAt(0)}$x")
   }
 
-
-  println(getWordsAndScores("abcdefg"))
 
 }

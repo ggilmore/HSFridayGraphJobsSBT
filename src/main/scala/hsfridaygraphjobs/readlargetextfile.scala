@@ -5,7 +5,7 @@ import scala.io.Source
 
 object readlargetextfile extends App {
   val nodeNeighborMapping = HashMap[String, Set[String]]()
-  for (line <- Source.fromFile("/Users/gmgilmore/Dropbox/ScalaDev/hsfridaygraphjobs/src/resources/connections.txt").getLines) {
+  for (line <- Source.fromFile("/Users/erisa/hackerschool/HSFridayGraphJobsSBT/src/main/scala/resources/connections.txt").getLines) {
     val pair = line.split(" ")
     val name = pair(0)
     val neighbor = pair(1)
